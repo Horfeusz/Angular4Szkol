@@ -1,0 +1,299 @@
+{
+  "bookmarks": [
+    {
+      "id": 29,
+      "url": "http://www.tvmaze.com/shows/29/vikings",
+      "name": "Vikings",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Action",
+        "History"
+      ],
+      "status": "Running",
+      "runtime": 60,
+      "premiered": "2013-03-03",
+      "officialSite": "http://www.history.com/shows/vikings",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Wednesday"
+        ]
+      },
+      "rating": {
+        "average": 9
+      },
+      "weight": 99,
+      "network": {
+        "id": 118,
+        "name": "History",
+        "country": {
+          "name": "Canada",
+          "code": "CA",
+          "timezone": "Canada/Atlantic"
+        }
+      },
+      "webChannel": null,
+      "externals": {
+        "tvrage": 31136,
+        "thetvdb": 260449,
+        "imdb": "tt2306299"
+      },
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/121/304437.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/121/304437.jpg"
+      },
+      "summary": "<p><b>Vikings</b> transports us to the brutal and mysterious world of Ragnar Lothbrok, a Viking warrior and farmer who yearns to explore - and raid - the distant shores across the ocean.</p>",
+      "updated": 1511454355,
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/shows/29"
+        },
+        "previousepisode": {
+          "href": "http://api.tvmaze.com/episodes/1006531"
+        },
+        "nextepisode": {
+          "href": "http://api.tvmaze.com/episodes/1255875"
+        }
+      }
+    },
+    {
+      "id": 73,
+      "url": "http://www.tvmaze.com/shows/73/the-walking-dead",
+      "name": "The Walking Dead",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Action",
+        "Horror"
+      ],
+      "status": "Running",
+      "runtime": 60,
+      "premiered": "2010-10-31",
+      "officialSite": "http://www.amc.com/shows/the-walking-dead",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Sunday"
+        ]
+      },
+      "rating": {
+        "average": 8.5
+      },
+      "weight": 100,
+      "network": {
+        "id": 20,
+        "name": "AMC",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        }
+      },
+      "webChannel": null,
+      "externals": {
+        "tvrage": 25056,
+        "thetvdb": 153021,
+        "imdb": "tt1520211"
+      },
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/136/340444.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/136/340444.jpg"
+      },
+      "summary": "<p><b>The Walking Dead</b> tells the story of the months and years that follow after a zombie apocalypse. It follows a group of survivors, led by former police officer Rick Grimes, who travel in search of a safe and secure home. As the world overrun by the dead takes its toll on the survivors, their interpersonal conflicts present a greater danger to their continuing survival than the walkers that roam the country. Over time, the characters are changed by the constant exposure to death and some grow willing to do anything to survive.</p><p>Based on the comic book series of the same name by Robert Kirkman, Tony Moore, and Charlie Adlard.</p>",
+      "updated": 1511912209,
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/shows/73"
+        },
+        "previousepisode": {
+          "href": "http://api.tvmaze.com/episodes/1336334"
+        },
+        "nextepisode": {
+          "href": "http://api.tvmaze.com/episodes/1336335"
+        }
+      }
+    },
+    {
+      "id": 806,
+      "url": "http://www.tvmaze.com/shows/806/the-bold-and-the-beautiful",
+      "name": "The Bold and the Beautiful",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Family",
+        "Romance"
+      ],
+      "status": "Running",
+      "runtime": 30,
+      "premiered": "1987-03-23",
+      "officialSite": null,
+      "schedule": {
+        "time": "13:30",
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 93,
+      "network": {
+        "id": 2,
+        "name": "CBS",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        }
+      },
+      "webChannel": null,
+      "externals": {
+        "tvrage": 5631,
+        "thetvdb": 79838,
+        "imdb": "tt0092325"
+      },
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/6/15628.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/6/15628.jpg"
+      },
+      "summary": "<p>They created a dynasty where passion rules, they are the Forresters, the first name in Fashion. <b>The Bold and the Beautiful</b>, a world of fashion, glamor and romance. A place where power, money and success are there for the taking in a city where dreams really do come true. Follow the lives and loves of the Forresters on <i>The Bold and the Beautiful</i>...</p>",
+      "updated": 1510965381,
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/shows/806"
+        },
+        "previousepisode": {
+          "href": "http://api.tvmaze.com/episodes/1353557"
+        },
+        "nextepisode": {
+          "href": "http://api.tvmaze.com/episodes/1353558"
+        }
+      }
+    },
+    {
+      "id": 5618,
+      "url": "http://www.tvmaze.com/shows/5618/wataha",
+      "name": "Wataha",
+      "type": "Scripted",
+      "language": "Polish",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "status": "Running",
+      "runtime": 60,
+      "premiered": "2014-10-12",
+      "officialSite": "http://www.hbo.pl/wataha/",
+      "schedule": {
+        "time": "20:10",
+        "days": [
+          "Sunday"
+        ]
+      },
+      "rating": {
+        "average": 9
+      },
+      "weight": 97,
+      "network": {
+        "id": 399,
+        "name": "HBO Polska",
+        "country": {
+          "name": "Poland",
+          "code": "PL",
+          "timezone": "Europe/Warsaw"
+        }
+      },
+      "webChannel": {
+        "id": 232,
+        "name": "HBO Go Polska",
+        "country": {
+          "name": "Poland",
+          "code": "PL",
+          "timezone": "Europe/Warsaw"
+        }
+      },
+      "externals": {
+        "tvrage": 44811,
+        "thetvdb": 286152,
+        "imdb": "tt4048942"
+      },
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/22/56692.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/22/56692.jpg"
+      },
+      "summary": "<p>After bombing attack, which killed his friends from the Border Guard, Captain Wiktor Rebrow trying to unravel the mystery and figure out what happened and who is behind it all.</p>",
+      "updated": 1509540475,
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/shows/5618"
+        },
+        "previousepisode": {
+          "href": "http://api.tvmaze.com/episodes/1340905"
+        }
+      }
+    },
+    {
+      "id": 5933,
+      "url": "http://www.tvmaze.com/shows/5933/pakt",
+      "name": "Pakt",
+      "type": "Scripted",
+      "language": "Polish",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "status": "Running",
+      "runtime": 60,
+      "premiered": "2015-11-08",
+      "officialSite": "http://hbo.pl",
+      "schedule": {
+        "time": "",
+        "days": [
+          "Monday"
+        ]
+      },
+      "rating": {
+        "average": 9.5
+      },
+      "weight": 0,
+      "network": {
+        "id": 399,
+        "name": "HBO Polska",
+        "country": {
+          "name": "Poland",
+          "code": "PL",
+          "timezone": "Europe/Warsaw"
+        }
+      },
+      "webChannel": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": null,
+        "imdb": null
+      },
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/25/64875.jpg",
+        "original": "http://static.tvmaze.com/uploads/images/original_untouched/25/64875.jpg"
+      },
+      "summary": "<p><b>Pakt</b> tells the story set in the realities of contemporary Poland.</p><p>Peter Grodecki, investigative journalist for newspaper \"Kurier\", gets on the trail of a large financial scandal.</p>",
+      "updated": 1497873152,
+      "_links": {
+        "self": {
+          "href": "http://api.tvmaze.com/shows/5933"
+        },
+        "previousepisode": {
+          "href": "http://api.tvmaze.com/episodes/1216916"
+        }
+      }
+    }
+  ]
+}

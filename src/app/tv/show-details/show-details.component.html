@@ -1,0 +1,41 @@
+<div class="columns">
+  <app-poster class="column is-3" [show]="show" [size]="'lg'"></app-poster>
+  <div class="column">
+    <h1 class="title">{{show?.name}}</h1>
+    <section [innerHTML]="show?.summary"></section>
+
+    <table class="table" width="100%">
+      <thead>
+      <tr>
+        <th>episode - number</th>
+        <th>title</th>
+        <th>date</th>
+        <th>air time</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let episode of show?._embedded.episodes">
+        <!--
+        <td>{{episode.season}}/{{episode.number}}</td>
+        -->
+        <td>{{episode | episodise:episodesLength}}</td>
+        <td>{{episode.name | uppercase }}</td>
+        <td>{{episode.airdate}}</td>
+        <td>{{episode.airtime}}</td>
+      </tr>
+      <tr *ngIf="show?._embedded.episodes.length === 0">
+        <td colspan="100" class="has-text-centered">no episodes found</td>
+      </tr>
+      </tbody>
+    </table>
+
+
+  </div>
+</div>
+
+
+<!--
+<pre>
+  {{show | json}}
+</pre>
+-->

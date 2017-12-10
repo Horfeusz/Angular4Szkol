@@ -1,0 +1,79 @@
+<!--
+
+Zerknij na Forms:states
+
+pristine,
+dirty,
+touched,
+valid,
+submited
+
+-->
+
+<div class="columns">
+  <form #formRef="ngForm" class="column is-6 is-offset-3">
+    <h1 class="title">Contct us</h1>
+    <label for="email" class="label">Email</label>
+    <div class="field">
+      <p class="control has-icons-left has-icons-right">
+
+        <!--[ngClass]="{'is-danger': showErrors(emailRef)}"-->
+        <input id="email"
+               name="email"
+               [(ngModel)]="contact.email"
+               type="email"
+               class="input"
+               placeholder="Email"
+               minlength="3"
+               #emailRef="ngModel"
+               appStartsWithLetters
+               [class.is-danger]="showErrors(emailRef)"
+               [class.is-success]="emailRef.dirty && emailRef.valid"
+               required>
+        <span class="icon is-small is-left">
+          <i class="fa fa-envelope"></i>
+        </span>
+        <span class="icon is-small is-right">
+          <i class="fa fa-check"></i>
+        </span>
+      </p>
+    </div>
+
+
+    <pre>{{emailRef.errors | json}}</pre>
+
+
+    <div class="help is-danger" *ngIf="emailRef.dirty && emailRef.invalid">
+      <p *ngIf="emailRef.errors.required">This is required</p>
+      <p *ngIf="emailRef.errors.minlength">Enter more characters</p>
+    </div>
+
+
+    <div class="field">
+      <label class="label">Message</label>
+      <div class="control">
+        <textarea name="message"
+                  [(ngModel)]="contact.message"
+                  minlength="5"
+                  #messageRef="ngModel"
+                  class="textarea"
+                  [class.is-danger]="showErrors(messageRef)"
+                  [class.is-success]="messageRef.dirty && messageRef.valid"
+                  placeholder="Message"></textarea>
+      </div>
+    </div>
+    <!--
+    <pre>{{messageRef.errors | json}}</pre>
+    -->
+    <div class="help is-danger" *ngIf="messageRef.dirty && messageRef.invalid">
+      <p *ngIf="messageRef.errors.minlength">Enter more characters</p>
+    </div>
+
+    <div class="field">
+      <div class="control">
+        <button [disabled]="formRef.invalid"  class="button is-pulled-right is-primary">Send</button>
+      </div>
+    </div>
+  </form>
+</div>
+

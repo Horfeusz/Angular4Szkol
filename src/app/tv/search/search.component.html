@@ -1,0 +1,72 @@
+<!--
+ul>li*5>a+span?lorem
+. -- div
+
+.columns>.column.is-3+.column
+-->
+<div class="columns">
+  <div class="column is-3">
+    <h2 class="subtitle">Bookmarks</h2>
+    <div class="columns is-multiline">
+      <app-poster *ngFor="let bookmark of bookmarks"
+                  [show]="bookmark"
+                  [size]="'md'"
+                  class="column is-6">
+        <app-bookmark-remove [item]="bookmark"></app-bookmark-remove>
+      </app-poster>
+    </div>
+  </div>
+  <div class="column">
+    <h2 class="subtitle">Find shows</h2>
+
+    <form class="field has-addons" [formGroup]="searchForm">
+      <div class="control">
+        <!--
+        Pierwsza wersja
+        <input #searchRef type="search" class="input">
+        -->
+        <!--
+        Jak zamykamy w forme w angularze to wymagany jest name
+        -->
+        <!--
+        <input [(ngModel)]="query" name="search" type="search" class="input">
+        -->
+        <input formControlName="query" name="search" type="search" class="input">
+      </div>
+      <div class="control">
+        <!--
+        <button class="button is-primary" (click)="search(searchRef.value)">Search</button>
+        -->
+        <!--
+        Jak ustawie typ przycisku na submit to jest to przycisk wysyłający formularz
+        Jak ustawie typ przycisku na button to będzie to zwykły przycisk
+        -->
+        <button type="submit" class="button is-primary" (click)="search(searchForm.controls.query.value)">Search</button>
+      </div>
+    </form>
+
+
+    <div class="columns is-multiline">
+      <div class="column is-4" *ngFor="let item of shows">
+        <app-poster [show]="item"
+                    [size]="'md'"
+                    [appIsBookmarked]="item">
+          <app-bookmark-add [item]="item"></app-bookmark-add>
+          <app-bookmark-remove [item]="item"></app-bookmark-remove>
+          <!--
+          <h3 class="subtitle poster-header">{{item.language}}</h3>
+          -->
+        </app-poster>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!--
+<div>
+  <pre>
+    {{shows | json}}
+  </pre>
+</div>
+-->

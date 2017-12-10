@@ -1,0 +1,21 @@
+<nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-menu">
+      <div class="navbar-start">
+        <a routerLink="/"
+           routerLinkActive="is-active"
+           [routerLinkActiveOptions]="{exact: true}"
+           class="navbar-item is-tab is-active">Home</a>
+        <a routerLink="/tv" routerLinkActive="is-active" class="navbar-item is-tab">TV shows</a>
+        <a routerLink="/contact" routerLinkActive="is-active" class="navbar-item is-tab">Contact</a>
+      </div>
+      <div class="navbar-end">
+        <span class="navbar-item" *ngIf="isLoading">Loading ... </span>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

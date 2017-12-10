@@ -1,0 +1,11 @@
+<ng-container *ngIf="show">
+  <ng-content select=".poster-header"></ng-content>
+  <img [src]="posterUrl"/>
+  <ng-content></ng-content>
+  <h2 class="subtitle">
+    <a routerLink="/tv/{{show.id}}" class="subtitle">
+      {{show.name}}
+    </a>
+  </h2>
+</ng-container>
+
